@@ -2,8 +2,14 @@
 
 ## 题目背景
 ![image](https://github.com/fiveyearoldlookingup/----MCM/assets/132869584/b9397211-e793-45ee-9e4b-e589192d47df)
+
+
 思路的视频来源：https://www.youtube.com/watch?v=TDfBzQShh00
+
+
 下面是视频的所有内容
+
+
 Momentum在物理中是动量——>是物体保持运动的力，但是可以为势头。
 Momentum还可用于预测两个物体碰撞后的方向。在网球比赛中，动量对心理和身体的影响决定了比赛的方向。
 在比赛中看似处于优势的球员通常被称为“Have the Momentum”
