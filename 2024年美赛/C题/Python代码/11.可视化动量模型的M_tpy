@@ -1,0 +1,37 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# 替换为您的Excel文件路径
+file_path = '计算结果含M(t).xlsx'
+
+# 读取Excel文件
+data = pd.read_excel(file_path)
+
+# 选择并处理数据
+# 此处假设已经完成了M(t)的计算并将结果存储在filtered_data中
+# 示例代码省略了这一部分，请参照之前的步骤完成M(t)的计算
+
+# 假设filtered_data已经正确准备好了，包含了M(t)的计算结果
+# 下面直接展示如何绘制M(t)和y12
+
+# 设置图形大小
+plt.figure(figsize=(10, 6))
+
+# 绘制M(t)的折线图
+plt.plot(data.index, data['M(t)'], label='M(t)', marker='o')  # 确保data变量已包含M(t)
+
+# 绘制y12的折线图
+plt.plot(data.index, data['y12'], label='y12', marker='x')
+
+# 添加图例
+plt.legend()
+
+# 设置横纵坐标的标签
+plt.xlabel('t')
+plt.ylabel('Values')
+
+# 设置图形的标题
+plt.title('player1 M(t) and score_rate over time')
+
+# 显示图形
+plt.show()

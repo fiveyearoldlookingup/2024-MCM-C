@@ -1,0 +1,47 @@
+variables,explanation,example,,变量,解释,例子
+match_id,match identification,"2023-wimbledon-1701 (""7"" is the round, and ""01"" the match number in that round)",,match_id,匹配识别,2023-wimbledon-1701（“7”是该轮次，“01”是该轮次的比赛号码）
+player1,first and last name of the first player,Carlos Alcaraz,,player1,第一个玩家的名字和姓氏,卡洛斯·阿尔卡拉斯
+player2,first and last name of the second player,Novak Djokovic,,player2,第二名玩家的名字和姓氏,诺瓦克·德约科维奇
+elapsed_time,time elapsed since start of first point to start of current point (H:MM:SS),0:10:27,,elapsed_time,从第一个点开始到当前点开始所经过的时间 (H:MM:SS),0:10:27
+set_no,set number in match,"1, 2, 3, 4, or 5",,set_no,比赛中设定号码,1、2、3、4 或 5
+game_no,game number in set,"1, 2, ...,7",,game_no,套装中的游戏编号,"1, 2, ...,7"
+point_no,point number in game,"1, 2, 3... etc.",,point_no,游戏中的点数,1、2、3...等等
+p1_sets,sets won by player 1,"0, 1, or 2",,p1_sets,选手 1 赢得局数,0、1 或 2
+p2_sets,sets won by player 2,"0, 1, or 2",,p2_sets,选手 2 赢得局数,0、1 或 2
+p1_games,games won by player 1 in current set,"0, 1,...,6",,p1_games,当前盘中玩家 1 获胜的局数,"0, 1,...,6"
+p2_games,games won by player 2 in current set,"0, 1,...,6",,p2_games,当前盘中玩家 2 获胜的局数,"0, 1,...,6"
+p1_score,player 1's score within current game,"0 (love), 15, 30, 40, AD (advantage)",,p1_score,玩家 1 在当前游戏中的得分,0（爱）、15、30、40、AD（优势）
+p2_score,player 2's score within current game,"0 (love), 15, 30, 40, AD (advantage)",,p2_score,玩家 2 在当前游戏中的得分,0（爱）、15、30、40、AD（优势）
+server,server of the point,"1: player 1, 2: player 2",,server,点的服务器,1：玩家1，2：玩家2
+serve_no,first or second serve,"1: first serve, 2: second serve",,serve_no,一发或二发,1：一发，2：二发
+point_victor,winner of the point,"1 if player 1 wins, 2 if player 2 wins",,point_victor,得分获胜者,如果玩家 1 获胜则为 1，如果玩家 2 获胜则为 2
+p1_points_won,number of points won by player 1 in match,"0, 1, 2... etc.",,p1_points_won,玩家 1 在比赛中赢得的分数,0、1、2...等
+p2_points_won,number of points won by player 2 in match,"0, 1, 2... etc.",,p2_points_won,玩家 2 在比赛中赢得的分数,0、1、2...等
+game_victor,a player won a game this point,"0: no one, 1: player 1, 2: player 2",,game_victor,一名玩家此时赢得了一场比赛,0：无人，1：玩家 1，2：玩家 2
+set_victor,a player won a set this point,"0: no one, 1: player 1, 2: player 2",,set_victor,一名选手在这一点上赢得了一盘,0：无人，1：玩家 1，2：玩家 2
+p1_ace,player 1 hit an untouchable winning serve,0 or 1,,p1_ace,选手 1 打出了无人能及的制胜发球,0 或 1
+p2_ace,player 2 hit an untouchable winning serve,0 or 1,,p2_ace,选手 2 打出了无人能及的制胜发球,0 或 1
+p1_winner,player 1 hit an untouchable winning shot,0 or 1,,p1_winner,球员 1 击中了不可触及的制胜一球,0 或 1
+p2_winner,player 2 hit an untouchable winning shot,0 or 1,,p2_winner,球员 2 击出一记不可触碰的制胜球,0 或 1
+winner_shot_type,category of untouchable shot,"F: Forehand, B: Backhand",,winner_shot_type,不可触及的镜头类别,F：正手 B：反手
+p1_double_fault,player 1 missed both serves and lost the point,0 or 1,,p1_double_fault,选手 1 两次发球均失手，丢分,0 或 1
+p2_double_fault,player 2 missed both serves and lost the point,0 or 1,,p2_double_fault,选手 2 两次发球均失手，丢分,0 或 1
+p1_unf_err,player 1 made an unforced error,0 or 1,,p1_unf_err,球员1犯了非受迫性失误,0 或 1
+p2_unf_err,player 2 made an unforced error,0 or 1,,p2_unf_err,球员2犯了一个非受迫性失误,0 或 1
+p1_net_pt,player 1 made it to the net,0 or 1,,p1_net_pt,球员 1 成功上网,0 或 1
+p2_net_pt,player 2 made it to the net,0 or 1,,p2_net_pt,球员 2 成功上网,0 或 1
+p1_net_pt_won,player 1 won the point while at the net,0 or 1,,p1_net_pt_won,球员 1 在网前赢得分数,0 或 1
+p2_net_pt_won,player 2 won the point while at the net,0 or 1,,p2_net_pt_won,球员 2 在网前赢得得分,0 或 1
+p1_break_pt,player 1 has an opportunity to win a game player 2 is serving,0 or 1,,p1_break_pt,玩家 1 有机会赢得玩家 2 正在发球的游戏,0 或 1
+p2_break_pt,player 2 has an opportunity to win a game player 1 is serving,0 or 1,,p2_break_pt,玩家 2 有机会赢得玩家 1 正在发球的游戏,0 或 1
+p1_break_pt_won,player 1 won the game player 2 is serving,0 or 1,,p1_break_pt_won,玩家 1 获胜，玩家 2 发球,0 或 1
+p2_break_pt_won,player 2 won the game player 1 is serving,0 or 1,,p2_break_pt_won,玩家 2 获胜 玩家 1 发球,0 或 1
+p1_break_pt_missed,player 1 missed an opportunity to win a game player 2 is serving,0 or 1,,p1_break_pt_missed,玩家 1 错过了赢得比赛的机会 玩家 2 正在发球,0 或 1
+p2_break_pt_missed,player 2 missed an opportunity to win a game player 1 is serving,0 or 1,,p2_break_pt_missed,玩家 2 错过了赢得玩家 1 发球的机会,0 或 1
+p1_distance_run,player 1's distance ran during point (meters),"5.376, 21.384, etc.",,p1_distance_run,玩家 1 在该点期间跑动的距离（米）,5.376、21.384 等
+p2_distance_run,player 2's distance ran during point (meters),"6.485, 12.473, etc.",,p2_distance_run,玩家 2 在该点期间跑动的距离（米）,6.485、12.473 等
+rally_count,number of shots during the point,"1, 2, 4, etc. (includes serve)",,rally_count,该点期间的射击次数,1、2、4等（包括发球）
+speed_mph,speed of serve (miles per hour; mph),"81, 124, etc.",,speed_mph,服务速度（英里/小时；mph）,81、124 等
+serve_width,direction of serve,"B: Body, BC: Body/Center, BW: Body/Wide, C: Center, W: Wide",,serve_width,发球方向,B：主体、BC：主体/中心、BW：主体/宽、C：中心、W：宽
+serve_depth,depth of serve,"CTL: Close To Line, NCTL: Not Close To Line",,serve_depth,服务深度,CTL：接近线，NCTL：不接近线
+return_depth,depth of return,"D: Deep, ND: Not Deep",,return_depth,返回深度,D：深，ND：不深
